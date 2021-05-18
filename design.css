@@ -1,0 +1,55 @@
+body{
+    background: rgb(0,0,0);
+    background: linear-gradient(270deg, rgba(158,158,158,1) 0%, rgba(0,239,239,1) 100%);
+    text-align:center;
+  }
+  img{
+    width:200px;
+    height:120px
+  }
+  h2{
+    color:teal;
+    font-family: "Lucida Console";
+  }
+  p{
+    font-size:30px;
+    font-family: "Lucida Console";
+  }
+  h3{
+    color:green;
+    font-family: "Lucida Console";
+  }
+  .menu{
+    list-style:none;
+    font-family:serif;
+    font-size:15px;
+    position:absolute;
+    bottom: 500px;
+    right:50px;
+    z-index:10;
+    cursor:pointer;
+  }
+  .links{
+    padding-bottom:  10px;
+    color:black;
+    font-family:"Lucida Console";
+  }
+  .links:hover{
+    background:green;
+    font-size:30px;
+  }
+  
+  a{
+    text-decoration:none;
+  }
+  #poster{
+    width:390px;
+    height:190px
+  }
+  #wishlist, #down, #load{
+    font-size:45px;
+    font-family:serif;
+  }
+  #wishlist, #load, #down{
+    font-family: "Lucida Console";
+  }
